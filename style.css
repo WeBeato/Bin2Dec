@@ -1,0 +1,100 @@
+/* ——— Reset ——— */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ——— Body ——— */
+body {
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* ——— Container ——— */
+.container {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00c4ff;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+/* ——— Converter Box ——— */
+.converter {
+    background: #181818;
+    border: 1px solid #222;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 196, 255, 0.2);
+}
+
+.input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #101010;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #00c4ff;
+    color: #0f0f0f;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #00a3d6;
+}
+
+.result {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: #00ffcc;
+    min-height: 1.5rem;
+}
+
+/* ——— Footer ——— */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #222;
+    font-size: 0.9rem;
+    color: #777;
+    background-color: #0d0d0d;
+
+}
+
+.brand {
+    color: #00c4ff;
+    font-weight: 600;
+}
