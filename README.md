@@ -17,4 +17,5 @@ It allows users to enter a binary number (from 4 to 32 bits) and instantly conve
 ---
 
 🚀 Live Demo
+
 🔗 [View on GitHub Pages](https://webeato.github.io/Bin2Dec/)
